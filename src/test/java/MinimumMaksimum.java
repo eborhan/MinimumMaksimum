@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class MinimumMaksimum {
     public static void main(String[] args) {
 
-        int min = 0, max = 0, n, counter, i;
+        int min = 1, max = 1, n, counter, i;
         Scanner scan = new Scanner(System.in);
         System.out.print("Gireceğiniz sayı adedi: ");
         counter = scan.nextInt();
@@ -25,6 +25,6 @@ public class MinimumMaksimum {
 
         }
         System.out.println("Girilen sayılardan en büyüğü: " + max);
-        System.out.println("Girilen saytılardan en küçüğü: " + min);
+        System.out.println("Girilen sayılardan en küçüğü: " + min);
     }
 }
